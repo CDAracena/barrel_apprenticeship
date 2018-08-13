@@ -1,0 +1,82 @@
+body {
+  background-color: #1e1e1e;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans'
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.sponsor {
+  background-color: #B5A484;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  padding: 4px;
+}
+
+.navBar-container li {
+  display: flex;
+  text-decoration: none;
+}
+
+.navBar-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  max-height: 40px;
+}
+
+.logo-btn {
+  font-family: 'Open Sans semibold', sans-serif;
+  color: #B5A484;
+  border: 2px solid #B5A484;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+  font-size: 13px;
+}
+
+.logo-btn:hover {
+  background-color: #B5A484;
+  color: #1e1e1e;
+  border-color: #696254;
+}
+
+.social-media-icons {
+  font-size: 25px;
+  color: #B5A484;
+  transition: all 0.4s ease-in-out;
+}
+
+.social-media-icons:hover {
+  color: #d2d2d2;
+}
+
+.fb-icon {
+  padding-right: 15px;
+}
+
+.mainIntro-container {
+  background-image: url('photography/www.knobcreek.com-1293609732325191.jpg');
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+}
