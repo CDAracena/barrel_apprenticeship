@@ -5,6 +5,20 @@ body {
   font-family: 'Open Sans'
 }
 
+a:link {
+  color: #BD3131;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link:hover {
+  color: #932525;
+}
+
+a:visited {
+  color: #BD3131;
+}
+
 .main-container {
   max-width: 1440px;
   margin: 0 auto;
@@ -51,7 +65,7 @@ body {
   padding-bottom: 7px;
   font-weight: bold;
   transition: all 0.4s ease-in-out;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .logo-btn:hover {
@@ -79,4 +93,99 @@ body {
   height: 850px;
   background-position: center;
   background-size: cover;
+  display: flex;
+}
+
+.introText {
+  color: white;
+  font-size: 70px;
+  max-width: 36%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  padding-left: 150px;
+}
+
+.introSub-Header {
+  font-size: 16px;
+}
+
+.bourbon-bottle {
+  padding-left: 203px;
+  padding-top: 93px;
+}
+
+.bourbon-bottle img {
+  height: 640px;
+}
+
+.empty-Tan-Div {
+  background-color: #B5A484;
+  height: 350px
+}
+
+.pour-cup-div {
+  width: 50%;
+}
+
+.pour-cup-div img {
+  width: 100%;
+  height: 600px;
+}
+
+.center-headline-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  font-family: 'Open Sans semibold';
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.center-div {
+  display: flex;
+  background-color: white;
+  max-width: 80%;
+  margin: auto;
+  position: absolute;
+  top: 63%;
+  left: 325px;
+  width: 1270px;
+  z-index: 1;
+  height: 600px;
+}
+
+.center-headline-article svg {
+  height: 25px;
+}
+
+.article-svg {
+  fill: #BD3131;
+}
+
+.mid-header {
+  font-size: 28px;
+}
+
+.mid-paragraph {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.article-date {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1440px) {
+  .center-div {
+    position: absolute;
+    top: 74%;
+    left: 85px;
+    max-width: 90%;
+  }
+  .introText {
+    max-width: 37%;
+  }
 }
