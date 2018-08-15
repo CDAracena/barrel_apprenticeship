@@ -226,6 +226,38 @@ a:visited {
   font-family: 'Open Sans';
 }
 
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #B5A484;
+  align-items: center;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.knob-Logo {
+  height: 40px;
+}
+
+.social-media-svgs {
+  fill: #B5A484;
+  height: 25px;
+  transition: all 0.4s ease-in;
+}
+
+.social-media-svgs:hover {
+  fill: white;
+}
+
+.btn-logo {
+  padding-right: 150px;
+}
+
+.fb-svg {
+  padding-right: 10px;
+}
+
 @media screen and (max-width: 1440px) {
   .center-div {
     position: absolute;
