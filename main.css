@@ -164,11 +164,13 @@ a:visited {
 
 .mid-header {
   font-size: 28px;
+  font-family: 'Open Sans';
 }
 
 .mid-paragraph {
   width: 400px;
   margin: 0 auto;
+  font-family: 'Open Sans';
 }
 
 .article-date {
@@ -178,7 +180,7 @@ a:visited {
 .main-articles-container {
   background-color: white;
   font-size: 35px;
-  font-family: 'Open Sans semibold';
+  font-family: 'Open Sans';
   text-align: center;
   padding-top: 25px;
 }
@@ -270,5 +272,64 @@ a:visited {
   }
   .main-container {
     width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main-container {
+    max-width: 1000px;
+  }
+  .header {
+    max-width: 1000px;
+  }
+  .mainIntro-container {
+    background-position: unset;
+    background-size: unset;
+  }
+  .introText {
+    font-size: 60px;
+    padding-left: 60px;
+    max-width: unset;
+  }
+  .introSub-Header {
+    font-size: 15px;
+  }
+  .bourbon-bottle {
+    padding-left: 50px;
+  }
+  .center-div {
+    height: 450px;
+    top: 81%;
+    width: 900px;
+  }
+  .pour-cup-div img {
+    height: 450px;
+  }
+  .mid-header {
+    font-size: 21px;
+    padding-bottom: 10px;
+  }
+  .mid-paragraph {
+    font-size: 15px;
+    line-height: 29px;
+    width: 360px;
+  }
+  .empty-Tan-Div {
+    height: 250px;
+  }
+  .main-articles-container {
+    font-size: 28px;
+  }
+  .article-column {
+    max-width: 300px;
+  }
+  .img-Holder {
+    height: 250px;
+  }
+  .bottom-article-section {
+    padding: 20px;
+  }
+  .articles-container {
+    padding-top: 5px;
   }
 }
