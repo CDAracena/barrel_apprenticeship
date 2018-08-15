@@ -333,3 +333,67 @@ a:visited {
     padding-top: 5px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    max-width: 600px;
+    text-align: center;
+  }
+  .header {
+    max-width: 600px;
+  }
+  .mainIntro-container {
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid white;
+  }
+  .introText {
+    font-size: 35px;
+    padding-top: 50px;
+    text-align: center;
+    width: 54%;
+  }
+  .bourbon-bottle {
+    padding-top: 5px;
+  }
+  .bourbon-bottle img {
+    height: 450px;
+  }
+  .center-div {
+    top: 79%;
+    left: 7%;
+    flex-direction: column;
+    height: 600px;
+  }
+  .pour-cup-div {
+    width: 100%;
+  }
+  .pour-cup-div img {
+    height: 300px;
+  }
+  .center-headline-article {
+    width: 100%;
+  }
+  .empty-Tan-Div {
+    height: 350px;
+  }
+  .main-articles-container {
+    font-size: 21px;
+  }
+  .article-column {
+    max-width: 250px;
+  }
+  .bottom-article-section {
+    font-size: 13px;
+    padding: 10px;
+  }
+  .mid-header {
+    font-size: 18px;
+  }
+  .footer .knob-Logo {
+    height: 35px;
+  }
+  .footer svg {
+    height: 18px;
+  }
+}
