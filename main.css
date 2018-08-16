@@ -441,3 +441,32 @@ a:visited {
     height: 400px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .header {
+    width: 100%;
+  }
+  .main-container {
+    width: 100%;
+  }
+  .btn-logo {
+    padding-right: 0px;
+  }
+  .navBar-list {
+    padding: 0px;
+    justify-content: space-evenly;
+  }
+  .knob-Logo {
+    width: 50px;
+  }
+  .mid-paragraph {
+    width: 300px;
+  }
+  .introText {
+    padding: 25px;
+    width: unset;
+  }
+  .introSub-Header {
+    font-size: 12px;
+  }
+}
