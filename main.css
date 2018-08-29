@@ -442,6 +442,18 @@ a:visited {
   }
 }
 
+@media screen and (max-width: 360px) {
+  .center-div {
+    top: 102%;
+  }
+}
+
+@media screen and (max-width: 375px), screen and (max-height: 667px) {
+  .center-div {
+    top: 101%;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .header {
     width: 100%;
